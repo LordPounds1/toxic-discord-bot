@@ -66,8 +66,8 @@ docker run -d -p 8081:8081 --name toxic toxic-api
 ```
 
 ## 📡 Пример API запроса / Example API Request
-![Пример токсичного ответа](https://imgur.com/a/discord-bot-ZKJ2xAA)
-![Пример не токсичного ответа](https://imgur.com/a/uNPhR5D)
+![Пример токсичного ответа](https://imgur.com/jGiS5Va)
+![Пример не токсичного ответа](https://imgur.com/oOS4wzA)
 
 ## 👨‍💻 Автор / Author
 GitHub: LordPounds1
