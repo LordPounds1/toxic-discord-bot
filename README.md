@@ -1,22 +1,44 @@
 # 🤖 Toxic Discord Bot / Токсичный Discord-бот
 
-Проект по автоматическому определению токсичных комментариев с помощью модели машинного обучения.  
-Бот интегрирован с Discord и способен реагировать на оскорбительные сообщения.
+Проект по автоматическому определению токсичных комментариев с помощью модели машинного обучения.
+Бот интегрирован с Discord и способен реагировать на оскорбительные сообщения на русском и английском языках.
 
-A machine learning project for detecting toxic comments with a Discord bot integration.  
-The bot reacts to offensive messages and gives feedback instantly.
+A machine learning project for detecting toxic comments with Discord bot integration.
+The bot responds to offensive messages in both Russian and English.
 
 ---
 
 ## 📌 Описание / Description
 
-🔷 **Русский**  
-Модель обучена с использованием TF-IDF и Logistic Regression, F1 ≥ 0.75.  
-Поддерживается Flask API и Discord-бот, реагирующий на токсичные сообщения.
+🔷 Русский
+Модель обучена с использованием TF-IDF и Logistic Regression
 
-🔷 **English**  
-Model trained using TF-IDF and Logistic Regression (F1 ≥ 0.75).  
-Includes a Flask API and Discord bot that responds to toxic messages.
+F1-score ≥ 0.79
+
+Реализованы:
+
+REST API на Flask
+
+Discord-бот, реагирующий на токсичные сообщения
+
+Поддержка двух языков (английский и русский)
+
+Автозапуск через systemd
+
+🔷 English
+Model trained using TF-IDF and Logistic Regression
+
+F1-score ≥ 0.79
+
+Includes:
+
+Flask-based REST API
+
+Discord bot that reacts to toxic messages
+
+Dual language support (EN + RU)
+
+Auto-start via systemd service
 
 ---
 
@@ -66,9 +88,12 @@ docker run -d -p 8081:8081 --name toxic toxic-api
 ```
 
 ## 📡 Пример API запроса / Example API Request
-![Пример токсичного ответа](https://i.imgur.com/jGiS5Va.png)
-![Пример не токсичного ответа](https://i.imgur.com/oOS4wzA.png)
+![An example of a toxic response](https://i.imgur.com/xQ4EDAp.png)
+![An example of a non-toxic response](https://i.imgur.com/GKR48Yf.png)
+![Пример нетоксичного ответа](https://i.imgur.com/IxonfPJ.png)
+![Пример токсичного ответа](https://i.imgur.com/VyRGf9R.png)
 
 ## 👨‍💻 Автор / Author
 GitHub: LordPounds1
+
 Telegram: [https://t.me/Tsp312]
